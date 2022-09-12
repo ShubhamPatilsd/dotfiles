@@ -30,6 +30,18 @@ export PATH="$HOME/.config/statusbarscripts:$PATH"
 
 export _JAVA_AWT_WM_NONREPARENTING=1
 
+export FLYCTL_INSTALL="/home/shubhampatil/.fly"
+  export PATH="$FLYCTL_INSTALL/bin:$PATH"
+
+export ANDROID_HOME=$HOME/Android/Sdk
+export ANDROID_SDK_ROOT=~/Android/Sdk
+export ANDROID_AVD_HOME=~/.android/avd
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
 pfetch
+
 
 # hi mom
