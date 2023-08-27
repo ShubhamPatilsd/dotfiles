@@ -41,7 +41,8 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
+export PATH=$PATH:/home/shubhampatil/.local/share/gem/ruby/3.0.0/bin
 pfetch
+export REACT_EDITOR=code
 
-
-# hi mom
+alias cotr="codeopen tr"

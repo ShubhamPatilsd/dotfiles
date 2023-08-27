@@ -9,25 +9,27 @@ window:
 # Font configuration (changes require restart)
 font:
   normal:
-    family: Fira Code Nerd Font
+    family: JetBrainsMono Nerd Font Mono
     style: Regular
 
   bold:
-    family: Fira Code Nerd Font
+    family: JetBrainsMono Nerd Font Mono
     style: Bold
 
   italic:
-    family: Fira Code Nerd Font
+    family: JetBrainsMono Nerd Font Mono
     style: Italic
 
   bold_italic:
-    family: Fira Code Nerd Font
+    family: JetBrainsMono Nerd Font Mono
     style: Bold Italic
 
-  size: 11
+  size: 12
 
 color_schemes:
-  latte: &latte # Default colors
+  latte:
+    # Default colors
+    &latte
     primary:
       background: "#EFF1F5" # base
       foreground: "#4C4F69" # text
@@ -106,7 +108,9 @@ color_schemes:
       - { index: 16, color: "#FE640B" }
       - { index: 17, color: "#DC8A78" }
 
-  frappe: &frappe # Default colors
+  frappe:
+    # Default colors
+    &frappe
     primary:
       background: "#303446" # base
       foreground: "#C6D0F5" # text
@@ -185,7 +189,9 @@ color_schemes:
       - { index: 16, color: "#EF9F76" }
       - { index: 17, color: "#F2D5CF" }
 
-  macchiato: &macchiato # Default colors
+  macchiato:
+    # Default colors
+    &macchiato
     primary:
       background: "#24273A" # base
       foreground: "#CAD3F5" # text
@@ -264,11 +270,12 @@ color_schemes:
       - { index: 16, color: "#F5A97F" }
       - { index: 17, color: "#F4DBD6" }
 
-  mocha: &mocha # Default colors
+  mocha:
+    # Default colors
+    &mocha
     primary:
-      background:
-        "#1E1E2E" # base
-        #background: "#131020" # base
+      background: "#1E1E2E" # base
+      #background: "#131020" # base
       foreground: "#CDD6F4" # text
       # Bright and dim foreground colors
       dim_foreground: "#CDD6F4" # text
@@ -345,4 +352,39 @@ color_schemes:
       - { index: 16, color: "#FAB387" }
       - { index: 17, color: "#F5E0DC" }
 
-colors: *mocha
+colors:
+  # Default colors
+  primary:
+    background: '0x1E1D2F'
+    foreground: '0xD9E0EE'
+
+  cursor:
+    text: '0x1E1D2F'
+    cursor: '0xF5E0DC'
+
+  # Normal colors
+  normal:
+    black: '0x6E6C7E'
+    red: '0xF28FAD'
+    green: '0xABE9B3'
+    yellow: '0xFAE3B0'
+    blue: '0x96CDFB'
+    magenta: '0xF5C2E7'
+    cyan: '0x89DCEB'
+    white: '0xD9E0EE'
+
+  # Bright colors
+  bright:
+    black: '0x988BA2'
+    red: '0xF28FAD'
+    green: '0xABE9B3'
+    yellow: '0xFAE3B0'
+    blue: '0x96CDFB'
+    magenta: '0xF5C2E7'
+    cyan: '0x89DCEB'
+    white: '0xD9E0EE'
+
+  indexed_colors:
+    - { index: 16, color: '0xF8BD96' }
+    - { index: 17, color: '0xF5E0DC' }
+theme: Catppuccin
